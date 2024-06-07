@@ -1,0 +1,8 @@
+apiVersion: tekton.dev/v1
+kind: TaskRun
+metadata:
+  name: taskrun-param-enum
+spec:
+  taskRef:
+    name: print-date
+
